@@ -1,21 +1,19 @@
 {
-    "license": "",
+  "title": "Pypofox",
+  "name": "pypofox",
+  "version": "0.2.0",
+  "description": "Support for Pypo",
+  "main": "index.js",
+  "author": "Jens Kadenbach",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+    "license": "MIT",
     "preferences": [{
         "type": "string",
         "name": "url",
         "value": "",
         "title": "URL of your pypo instance"
-    }],
-    "contributors": [],
-    "author": "audax333",
-    "url": "",
-    "name": "pypofox",
-    "dependencies": ["api-utils",
-                     "addon-kit"],
-    "version": "initial",
-    "lib": "lib",
-    "fullName": "pypofox",
-    "main": "main",
-    "id": "jid0-CyGPGEBgEqVTMgjXEwO4W1dkWCQ",
-    "description": ""
+    }]
 }
